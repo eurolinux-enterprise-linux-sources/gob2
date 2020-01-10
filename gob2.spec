@@ -1,7 +1,7 @@
 Summary: The GObject Builder
 Name: gob2
 Version: 2.0.19
-Release: 2%{?dist}
+Release: 4%{?dist}
 License: GPLv2+
 Group: Development/Tools
 Source: http://ftp.5z.com/pub/gob/gob2-%{version}.tar.gz
@@ -42,6 +42,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/aclocal/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.0.19-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.0.19-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0.19-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
